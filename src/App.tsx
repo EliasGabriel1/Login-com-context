@@ -11,8 +11,8 @@ function App() {
     <AuthProvider>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={<Login />} />
           <Route path='/profile' element={<Profile />} />
-          <Route path='/login' element={<Login />} />
         </Routes>
       </BrowserRouter>
     </AuthProvider>
